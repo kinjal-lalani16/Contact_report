@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            id="action_report_contacts"
+            string="Contact details"
+            model="res.partner"
+            report_type="qweb-pdf"
+            file="contacts_report.report_contact"
+            name="contacts_report.report_contact"
+        />
+    </data>
+</odoo>

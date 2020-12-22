@@ -7,10 +7,10 @@
     'website': "http://www.aktivsoftware.com",
     'category': 'Uncategorized',
     'version': '14.0.1.0.0',
-    'depends': ['base'],
+    'depends': ['contacts'],
     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'reports/reports.xml',
+        'reports/contact_detail_report.xml',
     ],
 }
